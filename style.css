@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+body {
+  background-color: #131a21;
+}
+main,
+header {
+  max-width: 1024px;
+  margin-inline: auto;
+}
+* {
+  font-family: "Ubuntu", sans-serif;
+  color: rgb(205, 205, 205);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header,
+section {
+  background-color: #0d1115;
+  border-radius: 5px;
+  padding: 25px;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 30px 0px;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+h1 + p {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  list-style-position: inside;
+}
+li {
+  margin: 10px 0px;
+  font-size: 18px;
+}
+li::before {
+  content: "<";
+  font-weight: bold;
+  margin-right: 2px;
+}
+li::after {
+  content: "/>";
+  font-weight: bold;
+}
+li > ul {
+  margin-left: 20px;
+}
+li > span {
+  font-weight: bold;
+}
+#html {
+  color: orangered;
+}
+#css {
+  color: rgb(0, 157, 255);
+}
+#js {
+  color: yellow;
+}
+#react {
+  color: rgb(97, 219, 251);
+}
+#mysql {
+  color: rgb(242, 145, 17);
+}
