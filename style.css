@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+:root {
+  --accent-color: orangered;
+}
 body {
   background-color: #131a21;
 }
@@ -70,4 +73,7 @@ li > span {
 }
 #mysql {
   color: rgb(242, 145, 17);
+}
+a {
+  color: var(--accent-color);
 }
