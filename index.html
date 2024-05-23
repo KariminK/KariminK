@@ -7,127 +7,45 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Karimin</h1>
-      <p>Self-taught frontend developer</p>
-    </header>
     <main>
-      <section>
-        <h2>My skills:</h2>
-        <ul>
-          <li><span id="html">HTML</span></li>
-          <li>
-            <span id="css">CSS</span>
-            <ul>
-              <li>Tailwind</li>
-              <li>SCSS</li>
-              <li>Bootstrap</li>
-            </ul>
-          </li>
-          <li>
-            <span id="js">JS</span>
-            <ul>
-              <li>
-                <span id="react">React</span>
-                <ul>
-                  <li>React Router</li>
-                  <li>Vitest + React Testing Library</li>
-                </ul>
-              </li>
-              <li>
-                NodeJS
-                <ul>
-                  <li>Express</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><span id="mysql">MySQL</span></li>
-          <li>PHP [a little bit]</li>
-        </ul>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <p>
-          Currently I am learning how to do client-side routing using React
-          Router
-        </p>
-        <ul>
-          <li>
-            <h3>PSI Site</h3>
-            <p>
-              It is my very first fullstack site which i built with my friend
-              <a href="https://github.com/yuuchiro">yuchiro</a>. On front side,
-              it is pure html, css and js. On the backend I've used NodeJS +
-              Express with MariaDB (MySQL) database. It was made for open-days
-              in our school. Users can log-in or register on site and add posts
-              or comment exisiting.
-            </p>
-          </li>
-          <li>
-            <h3>Shopping cart</h3>
-            <p>
-              Work-in-progress project which i am doing for
-              <a href="https://theodinproject.com">The Odin Project</a>
-              curriculum. It tests my skills in React (especially in client-side
-              routing). This site retrieves data from fakewebstore API and
-              allows users to add particular products to the cart. They also can
-              remove added products from cart.
-            </p>
-          </li>
-          <li>
-            <h3>ZST Timetable</h3>
-            <p>
-              It is a project for my school. Basically it is normal timetable,
-              but better. It has two parts: frontend (retrieves data from api
-              and displays lessons) and backend (it uses
-              <a href="https://github.com/wulkanowy/timetable-parser-js">
-                data parser
-              </a>
-              to process data from timetable site generated from school-ejournal
-              and sends in response filtered data). This timetable allows
-              students to filter lessons by classroom or class-group which
-              current site can't do.
-            </p>
-          </li>
-          <li>
-            <h3>zst++ and phpzst</h3>
-            <p>
-              They are base for bigger project (basically a documentation for
-              all tests to my school). Zst++ is about files in c++. Whereas
-              phpzst is about basic class making in php. I kinda wanted to
-              finally something quite usefull rather than one more useless
-              project. This site is in polish, beacuse it is easier to explain
-              things in my native language than in english (Polska gurom).
-            </p>
-          </li>
-          <li>
-            <h3>Fikrad and Path of Mushrooms</h3>
-            <p>
-              They are two educational games made for GEEK competition. First
-              one was written in React (I know, strange choice for a game), and
-              it is pretty hard logical game with a sprinkling of plot. The
-              other one is much less advanced. Basically, it is simple minigame,
-              where user using arrows on keyboard collects mushrooms to the
-              cart. The game displays info about recently collected mushroom and
-              if it's poisonous, you lose one heart, if it's eatable - u gain
-              one point. The game ends if you lose all hearts.
-            </p>
-          </li>
-          <li>
-            <h3>Other smaller stuff</h3>
-            <p>
-              I have done a lot of smaller projects, which aren't worth to
-              mention here. If you wanna watch them, then I invite you to my
-              <a href="https://github.com/KariminK">Github</a>
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Other stuff i did</h2>
-        <h3>[SECTION WORK IN PROGRESS]</h3>
-      </section>
+      <div class="titlebar">
+        <button id="minimize-btn"></button>
+        <button id="maximize-btn"></button>
+        <button id="close-btn"></button>
+      </div>
+      <div class="content">
+        <pre>
+       
+  _  __          _           _       
+ | |/ /         (_)         (_)      
+ | ' / __ _ _ __ _ _ __ ___  _ _ __  
+ |  < / _` | '__| | '_ ` _ \| | '_ \ 
+ | . \ (_| | |  | | | | | | | | | | |
+ |_|\_\__,_|_|  |_|_| |_| |_|_|_| |_|
+
+<span>
+// a self-taught frontend dev
+ {
+    "skills": [ 
+      "HTML", 
+      "CSS", 
+      "vanilla JS", 
+      "React", 
+      "Nodejs", 
+      "Express", 
+      "MySQL", 
+      "PHP", 
+      "git"
+    ]     
+    "contact": {
+      "github": https://github.com/karimink,
+      "discord": "karimin",
+    }
+ }
+</span><span id="animated">|</span>
+        </pre>
+      </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
